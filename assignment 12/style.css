@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white;
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background-color: darkgreen;
+    height: 80px;
+    line-height: 80px;
+}
+.logo {
+    height: 60px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 200px;
+}
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-list li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.founder {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.founder h1 {
+    color: darkgreen;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.founder .subtitle {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.founder .quote {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.offerings {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.offerings h2 {
+    color: darkgreen;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.grid-offerings {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.offer-card {
+    width: 220px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.offer-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+.offer-card p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.gallery {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.gallery-row1 img {
+    width: 380px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.gallery-row2 {
+    display: flex;
+}
+.gallery-row2 .large {
+    width: 770px;
+    margin-right: 10px;
+}
+.gallery-row2 .small {
+    width: 190px;
+    margin-right: 10px;
+}
+
+.contact {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact h2 {
+    color: darkgreen;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.contact form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: lightgray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-cols {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-cols h3 {
+    font-size: 16px;
+    color: darkgreen;
+    margin-bottom: 10px;
+}
+.footer-cols ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-cols li {
+    margin-bottom: 5px;
+}
+.footer-cols a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.footer-cols p {
+    font-size: 14px;
+    margin: 0;
+}
